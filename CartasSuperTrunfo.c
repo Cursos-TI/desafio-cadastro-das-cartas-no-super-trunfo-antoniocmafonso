@@ -23,6 +23,10 @@ int main() {
 
 // Informações referentes a carta 1
 
+//////////////////////////////////////////////////////
+
+// Cadastro do estado
+
     char estado1[15];
 
     printf("Digite o nome do estado1:\n");
@@ -30,6 +34,8 @@ int main() {
     scanf("%s", estado1);
 
 //////////////////////////////////////////////////////
+
+// Cadastro do código da carta
 
     char codigo1[5];
 
@@ -39,6 +45,8 @@ int main() {
 
 //////////////////////////////////////////////////////
 
+// Cadastro da cidade
+
     char cidade1[10];
 
     printf("Digite o nome da cidade1:\n");
@@ -46,6 +54,8 @@ int main() {
     scanf("%s", cidade1);
 
 //////////////////////////////////////////////////////
+
+// Inserindo a população da cidade
 
     int populacao1;
 
@@ -55,6 +65,8 @@ int main() {
 
 //////////////////////////////////////////////////////
 
+// Inserindo a área da cidade
+
     float area1;
 
     printf("Digite a área1 em km²:\n");
@@ -63,6 +75,8 @@ int main() {
 
 //////////////////////////////////////////////////////
 
+// Inserindo o PIB da cidade
+
     float pib1;
 
     printf("Digite o pib1:\n");
@@ -70,6 +84,8 @@ int main() {
     scanf("%f", &pib1);
 
 //////////////////////////////////////////////////////
+
+// Quantidade de pontos turísticos da cidade
 
     int pontos_turisticos1;
 
@@ -81,6 +97,10 @@ int main() {
 
 // Informações referentes a carta 2
 
+//////////////////////////////////////////////////////
+
+// Cadastro do estado
+
     char estado2[15];
 
     printf("Digite o nome do estado2:\n");
@@ -88,6 +108,8 @@ int main() {
     scanf("%s", estado2);
 
 //////////////////////////////////////////////////////
+
+// Cadastro do código da carta
 
     char codigo2[5];
 
@@ -97,6 +119,8 @@ int main() {
 
 //////////////////////////////////////////////////////
 
+// Cadastro da cidade
+
     char cidade2[10];
 
     printf("Digite o nome da cidade2:\n");
@@ -104,6 +128,8 @@ int main() {
     scanf("%s", cidade2);
 
 //////////////////////////////////////////////////////
+
+// Inserindo a população da cidade
 
     int populacao2;
 
@@ -113,6 +139,8 @@ int main() {
 
 //////////////////////////////////////////////////////
 
+// Inserindo a área da cidade
+
     float area2;
 
     printf("Digite a área2 em km²:\n");
@@ -121,6 +149,8 @@ int main() {
 
 //////////////////////////////////////////////////////
 
+// Inserindo o PIB da cidade
+
     float pib2;
 
     printf("Digite o pib2:\n");
@@ -128,6 +158,8 @@ int main() {
     scanf("%f", &pib2);
 
 //////////////////////////////////////////////////////
+
+// Quantidade de pontos turísticos da cidade
 
     int pontos_turisticos2;
 
