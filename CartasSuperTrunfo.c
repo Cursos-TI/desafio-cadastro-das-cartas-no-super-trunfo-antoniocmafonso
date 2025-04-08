@@ -21,7 +21,9 @@ Número de Pontos Turísticos: A quantidade de pontos turísticos na cidade. Tip
 
 int main() {
 
-// Informações referentes a carta 1
+//////////////////////////////////////////////////////
+
+////////// Informações referentes a carta 1 //////////
 
 //////////////////////////////////////////////////////
 
@@ -99,7 +101,7 @@ int main() {
 
     float densidade_populacional1;
 
-    densidade_populacional1 = (populacao1 / area1);
+    densidade_populacional1 = (float)(populacao1 / area1);
 
 //////////////////////////////////////////////////////
 
@@ -107,11 +109,11 @@ int main() {
 
     float pib_perCapita1;
 
-    pib_perCapita1 = (pib1 / populacao1);
+    pib_perCapita1 = (float)(pib1 / populacao1);
 
 //////////////////////////////////////////////////////
 
-// Informações referentes a carta 2
+////////// Informações referentes a carta 2 //////////
 
 //////////////////////////////////////////////////////
 
@@ -187,25 +189,25 @@ int main() {
 
 // Densidade Populacional
 
-float densidade_populacional2;
+    float densidade_populacional2;
 
-densidade_populacional2 = (populacao2 / area2);
+    densidade_populacional2 = (float)(populacao2 / area2);
 
 //////////////////////////////////////////////////////
 
 // PIB per Capita
 
-float pib_perCapita2;
+    float pib_perCapita2;
 
-pib_perCapita2 = (pib2 / populacao2);
+    pib_perCapita2 = (float)(pib2 / populacao2);
 
 //////////////////////////////////////////////////////
 
 // Prints - Carta 1
 
-    printf("Carta 1: \n");
+    printf("\nCarta 1: \n");
 
-    printf("\nEstado: %s\n", estado1);
+    printf("Estado: %s\n", estado1);
 
     printf("Código da Carta: %s\n", codigo1);
 
@@ -221,13 +223,13 @@ pib_perCapita2 = (pib2 / populacao2);
 
     printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional1);
 
-    printf("PIB per Capita: %.f Reais\n", pib_perCapita1);
+    printf("PIB per Capita: %.2f Reais\n", pib_perCapita1);
 
 // Prints - Carta 2
 
-    printf("Carta 2: \n");
+    printf("\nCarta 2: \n");
 
-    printf("\nEstado: %s\n", estado2);
+    printf("Estado: %s\n", estado2);
 
     printf("Código da Carta: %s\n", codigo2);
 
@@ -243,7 +245,7 @@ pib_perCapita2 = (pib2 / populacao2);
 
     printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional2);
 
-    printf("PIB per Capita: %.f Reais\n", pib_perCapita2);
+    printf("PIB per Capita: %.2f Reais\n", pib_perCapita2);
 
     return 0;
 }
